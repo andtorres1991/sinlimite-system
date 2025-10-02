@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Sin Límite Systems</title>
+  <title>Tienda - Sin Límite Systems</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -11,50 +11,57 @@
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      text-align: center;
     }
     header {
-      padding: 40px 20px;
       background: linear-gradient(to right, #00ffcc, #0066ff);
       color: black;
+      padding: 30px;
+      text-align: center;
     }
     h1 {
-      font-size: 3em;
       margin: 0;
+      font-size: 2.5em;
     }
-    nav a {
-      margin: 0 15px;
-      color: #00ffcc;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 40px 20px;
+    .catalogo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
     }
     .producto {
       background-color: #111;
       border: 2px solid #00ffcc;
       border-radius: 10px;
-      margin: 20px auto;
-      padding: 20px;
-      width: 90%;
-      max-width: 600px;
+      margin: 15px;
+      padding: 15px;
+      width: 280px;
+      text-align: center;
     }
     .producto img {
       width: 100%;
-      max-width: 400px;
-      border-radius: 10px;
+      border-radius: 8px;
       border: 1px solid #00ffcc;
     }
     .producto h3 {
-      margin-top: 15px;
+      margin: 10px 0 5px;
     }
     .producto p {
       margin: 5px 0;
     }
+    .boton {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #00ffcc;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
     footer {
       background-color: #111;
       color: #666;
+      text-align: center;
       padding: 20px;
       font-size: 0.9em;
     }
@@ -62,50 +69,54 @@
 </head>
 <body>
   <header>
-    <h1>Sin Límite Systems</h1>
-    <p>Soluciones técnicas, branding gamer y soporte sin límites</p>
-    <nav>
-      <a href="#productos">Productos</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
+    <h1>Tienda - Sin Límite Systems</h1>
+    <p>Productos gamer, soporte técnico y branding digital</p>
   </header>
 
-  <section id="productos">
-    <h2>Productos y Servicios</h2>
+  <div class="catalogo">
 
     <!-- 🔧 PRODUCTO 1 -->
     <div class="producto">
-      <img src="https://via.placeholder.com/400x250.png?text=Optimización+PC+Gamer" alt="Optimización PC Gamer">
-      <h3>Optimización de PC Gamer</h3>
-      <p>✅ BIOS, TPM, Secure Boot, drivers</p>
-      <p><strong>Precio:</strong> $80.000 COP</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm8L2DLA2KpWtoSypU6lP1O60pQvqo4Vnb6w&s" alt="PC Gamer">
+      <h3>EQUIPO AMD RYZEN SERIE 8000</h3>
+      <p>🔧 ESPECIFICACIONES:
+
+Procesador: AMD Ryzen 5 8600G – 4.3GHz
+
+Placa base: ASRock A620M-HDV (M.2 / 2 Slots)
+
+Almacenamiento: SSD 512GB M.2 PCIe
+
+Memoria: 16GB DDR5 RGB Blindada
+
+Enfriamiento: Refrigeración líquida 360mm – 3 ventiladores
+
+Case: Chasis V930 Falcon con 6 ventiladores ARGB
+
+Fuente: 400W potente y silenciosa</p>
+      <p><strong>$80.000 COP</strong></p>
+      <a href="https://wa.me/57XXXXXXXXXX?text=Quiero+optimizar+mi+PC" class="boton">Solicitar</a>
     </div>
 
     <!-- 🔧 PRODUCTO 2 -->
     <div class="producto">
-      <img src="https://via.placeholder.com/400x250.png?text=Intro+TikTok" alt="Intro TikTok">
-      <h3>Intro animada TikTok/YouTube</h3>
-      <p>🎬 Animación + música + branding</p>
-      <p><strong>Precio:</strong> $50.000 COP</p>
+      <img src="https://via.placeholder.com/280x180.png?text=Intro+TikTok" alt="Intro TikTok">
+      <h3>Intro animada TikTok</h3>
+      <p>Animación + música + branding</p>
+      <p><strong>$50.000 COP</strong></p>
+      <a href="https://wa.me/57XXXXXXXXXX?text=Quiero+una+intro+animada" class="boton">Solicitar</a>
     </div>
 
     <!-- 🔧 PRODUCTO 3 -->
     <div class="producto">
-      <img src="https://via.placeholder.com/400x250.png?text=Tarjeta+Presentación" alt="Tarjeta de presentación">
-      <h3>Tarjeta de presentación gamer</h3>
-      <p>🖥 Diseño personalizado + QR + impresión digital</p>
-      <p><strong>Precio:</strong> $30.000 COP</p>
+      <img src="https://via.placeholder.com/280x180.png?text=Tarjeta+Gamer" alt="Tarjeta Gamer">
+      <h3>Tarjeta de presentación</h3>
+      <p>Diseño personalizado + QR</p>
+      <p><strong>$30.000 COP</strong></p>
+      <a href="https://wa.me/57XXXXXXXXXX?text=Quiero+una+tarjeta+gamer" class="boton">Solicitar</a>
     </div>
 
-    <!-- ✨ Agrega más productos copiando y pegando este bloque -->
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>📱 WhatsApp: <a href="https://wa.me/57XXXXXXXXXX" target="_blank">Escríbenos</a><br>
-       📧 Email: sinlimitesystems@tucorreo.com<br>
-       📍 Bogotá, Usme – Centro Comercial Unilago</p>
-  </section>
+  </div>
 
   <footer>
     &copy; 2025 Sin Límite Systems. Todos los derechos reservados.
