@@ -31,6 +31,31 @@
     section {
       padding: 40px 20px;
     }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .galeria div {
+      margin: 10px;
+    }
+    .galeria img {
+      width: 300px;
+      border: 2px solid #00ffcc;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+      color: #fff;
+    }
+    th, td {
+      border: 1px solid #00ffcc;
+      padding: 10px;
+    }
+    th {
+      background-color: #0066ff;
+    }
     footer {
       background-color: #111;
       color: #666;
@@ -46,6 +71,7 @@
     <nav>
       <a href="#servicios">Servicios</a>
       <a href="#portafolio">Portafolio</a>
+      <a href="#precios">Precios</a>
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
@@ -57,7 +83,51 @@
 
   <section id="portafolio">
     <h2>Portafolio</h2>
-    <p>🎬 Intros animadas para TikTok y YouTube<br>🎵 Música Nightcore personalizada<br>🖥 Tarjetas de presentación y QR branding</p>
+    <div class="galeria">
+      <div>
+        <img src="https://via.placeholder.com/300x200.png?text=Intro+TikTok" alt="Intro TikTok">
+        <p>Intro animada para TikTok</p>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/300x200.png?text=Tarjeta+de+Presentación" alt="Tarjeta">
+        <p>Tarjeta de presentación gamer</p>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/300x200.png?text=QR+Reseñas" alt="QR">
+        <p>QR para reseñas en Facebook</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="precios">
+    <h2>Precios</h2>
+    <table>
+      <tr>
+        <th>Servicio</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        <td>Optimización de PC Gamer</td>
+        <td>Configuración BIOS, TPM, Secure Boot, drivers</td>
+        <td>$80.000 COP</td>
+      </tr>
+      <tr>
+        <td>Intro animada TikTok/YouTube</td>
+        <td>Animación + música + branding</td>
+        <td>$50.000 COP</td>
+      </tr>
+      <tr>
+        <td>Tarjeta de presentación</td>
+        <td>Diseño personalizado + QR + impresión digital</td>
+        <td>$30.000 COP</td>
+      </tr>
+      <tr>
+        <td>Soporte técnico remoto</td>
+        <td>Diagnóstico + solución vía AnyDesk</td>
+        <td>$40.000 COP</td>
+      </tr>
+    </table>
   </section>
 
   <section id="contacto">
