@@ -31,30 +31,26 @@
     section {
       padding: 40px 20px;
     }
-    .galeria {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .galeria div {
-      margin: 10px;
-    }
-    .galeria img {
-      width: 300px;
+    .producto {
+      background-color: #111;
       border: 2px solid #00ffcc;
+      border-radius: 10px;
+      margin: 20px auto;
+      padding: 20px;
+      width: 90%;
+      max-width: 600px;
     }
-    table {
-      margin: 0 auto;
-      border-collapse: collapse;
-      width: 80%;
-      color: #fff;
-    }
-    th, td {
+    .producto img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
       border: 1px solid #00ffcc;
-      padding: 10px;
     }
-    th {
-      background-color: #0066ff;
+    .producto h3 {
+      margin-top: 15px;
+    }
+    .producto p {
+      margin: 5px 0;
     }
     footer {
       background-color: #111;
@@ -69,65 +65,39 @@
     <h1>Sin Límite Systems</h1>
     <p>Soluciones técnicas, branding gamer y soporte sin límites</p>
     <nav>
-      <a href="#servicios">Servicios</a>
-      <a href="#portafolio">Portafolio</a>
-      <a href="#precios">Precios</a>
+      <a href="#productos">Productos</a>
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <p>🛠 Optimización de PCs gamer<br>🎮 Branding digital para negocios tech<br>📄 Soporte técnico y documentación</p>
-  </section>
+  <section id="productos">
+    <h2>Productos y Servicios</h2>
 
-  <section id="portafolio">
-    <h2>Portafolio</h2>
-    <div class="galeria">
-      <div>
-        <img src="https://via.placeholder.com/300x200.png?text=Intro+TikTok" alt="Intro TikTok">
-        <p>Intro animada para TikTok</p>
-      </div>
-      <div>
-        <img src="https://via.placeholder.com/300x200.png?text=Tarjeta+de+Presentación" alt="Tarjeta">
-        <p>Tarjeta de presentación gamer</p>
-      </div>
-      <div>
-        <img src="https://via.placeholder.com/300x200.png?text=QR+Reseñas" alt="QR">
-        <p>QR para reseñas en Facebook</p>
-      </div>
+    <!-- 🔧 PRODUCTO 1 -->
+    <div class="producto">
+      <img src="https://via.placeholder.com/400x250.png?text=Optimización+PC+Gamer" alt="Optimización PC Gamer">
+      <h3>Optimización de PC Gamer</h3>
+      <p>✅ BIOS, TPM, Secure Boot, drivers</p>
+      <p><strong>Precio:</strong> $80.000 COP</p>
     </div>
-  </section>
 
-  <section id="precios">
-    <h2>Precios</h2>
-    <table>
-      <tr>
-        <th>Servicio</th>
-        <th>Descripción</th>
-        <th>Precio</th>
-      </tr>
-      <tr>
-        <td>Optimización de PC Gamer</td>
-        <td>Configuración BIOS, TPM, Secure Boot, drivers</td>
-        <td>$80.000 COP</td>
-      </tr>
-      <tr>
-        <td>Intro animada TikTok/YouTube</td>
-        <td>Animación + música + branding</td>
-        <td>$50.000 COP</td>
-      </tr>
-      <tr>
-        <td>Tarjeta de presentación</td>
-        <td>Diseño personalizado + QR + impresión digital</td>
-        <td>$30.000 COP</td>
-      </tr>
-      <tr>
-        <td>Soporte técnico remoto</td>
-        <td>Diagnóstico + solución vía AnyDesk</td>
-        <td>$40.000 COP</td>
-      </tr>
-    </table>
+    <!-- 🔧 PRODUCTO 2 -->
+    <div class="producto">
+      <img src="https://via.placeholder.com/400x250.png?text=Intro+TikTok" alt="Intro TikTok">
+      <h3>Intro animada TikTok/YouTube</h3>
+      <p>🎬 Animación + música + branding</p>
+      <p><strong>Precio:</strong> $50.000 COP</p>
+    </div>
+
+    <!-- 🔧 PRODUCTO 3 -->
+    <div class="producto">
+      <img src="https://via.placeholder.com/400x250.png?text=Tarjeta+Presentación" alt="Tarjeta de presentación">
+      <h3>Tarjeta de presentación gamer</h3>
+      <p>🖥 Diseño personalizado + QR + impresión digital</p>
+      <p><strong>Precio:</strong> $30.000 COP</p>
+    </div>
+
+    <!-- ✨ Agrega más productos copiando y pegando este bloque -->
   </section>
 
   <section id="contacto">
